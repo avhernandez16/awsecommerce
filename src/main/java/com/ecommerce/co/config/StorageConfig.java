@@ -17,7 +17,6 @@ public class StorageConfig {
 
     @Value("${cloud.aws.credentials.secret-key}")
     private String accessSecret;
-
     @Value("${cloud.aws.region.static}")
     private String region;
 
